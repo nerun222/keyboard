@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <style> 
+<style> 
 h1{
 	text-align: center;
 	font-size: 300%;
@@ -15,11 +15,11 @@ p {
 	padding: 40px 47px; 
     background: black;
     width: 5px;
-    border-radius: 100px;
+    border-radius: 10px;
 	text-align: center;
 	cursor: pointer;
 	display: table-cell;
-	font-weight: 1000px;
+	font-size: 40px;
 }
 
 p:hover {
@@ -31,24 +31,24 @@ p:active {
 } 
 
 body {
-    background-color: gray
+    background-color: gray;
+	text-align: center;
 }
-
+#text {
+	font-size: 50px;
+}
 </style>
 </head>
 <body>
-
 <div>
 	<h1>Virtual keyboard</h1>
 
 </div>
 <div id="text">
-
-</div>
-
-	<p onclick='cat(this.innerHTML)' >1</p>
-	<p onclick='cat(this.innerHTML)' >2</p>
-	<p onclick='cat(this.innerHTML)' >3</p>
+</div></br></br>
+	<p onclick='cat(this.innerHTML)'>1</p>
+	<p onclick='cat(this.innerHTML)'>2</p>
+	<p onclick='cat(this.innerHTML)'>3</p>
 	<p onclick='cat(this.innerHTML)'>4</p>
 	<p onclick='cat(this.innerHTML)'>5</p>
 	<p onclick='cat(this.innerHTML)'>6</p>
@@ -91,5 +91,4 @@ body {
 <script src='js/index.js'></script>
 <script src='build/main.bundle.js'></script>
 </body>
-
 </html>
