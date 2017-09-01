@@ -9,7 +9,7 @@ function ca (){
 	document.getElementById('text').innerHTML = g.substring(0,x-1);
 }
 function sb (gain){
-	document.getElementById("text").innerHTML = document.getElementById('text').innerHTML + ' ';
+	document.getElementById("text").innerHTML = document.getElementById('text').innerHTML + '&nbsp';
 	
 }
 function cc (){
